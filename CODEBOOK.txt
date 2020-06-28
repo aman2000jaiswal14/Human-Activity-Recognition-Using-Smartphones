@@ -1,0 +1,567 @@
+1  :  activityName
+       Length:35         
+       Class :character  
+       Mode  :character  
+       
+       
+       
+2  :  subject
+       Min.   : 1.000000  
+       1st Qu.: 9.500000  
+       Median :16.000000  
+       Mean   :16.085714  
+       3rd Qu.:23.500000  
+       Max.   :30.000000  
+3  :  timeBodyAccelerometermeanX
+       Min.   :0.2657  
+       1st Qu.:0.2725  
+       Median :0.2748  
+       Mean   :0.2750  
+       3rd Qu.:0.2770  
+       Max.   :0.3048  
+4  :  timeBodyAccelerometermeanY
+       Min.   :-0.02407  
+       1st Qu.:-0.01870  
+       Median :-0.01768  
+       Mean   :-0.01779  
+       3rd Qu.:-0.01681  
+       Max.   :-0.01266  
+5  :  timeBodyAccelerometermeanZ
+       Min.   :-0.1357  
+       1st Qu.:-0.1101  
+       Median :-0.1087  
+       Mean   :-0.1094  
+       3rd Qu.:-0.1069  
+       Max.   :-0.1010  
+6  :  timeBodyAccelerometerstdX
+       Min.   :-0.9837  
+       1st Qu.:-0.6631  
+       Median :-0.6056  
+       Mean   :-0.6119  
+       3rd Qu.:-0.5509  
+       Max.   :-0.2355  
+7  :  timeBodyAccelerometerstdY
+       Min.   :-0.9558  
+       1st Qu.:-0.5792  
+       Median :-0.5099  
+       Mean   :-0.5183  
+       3rd Qu.:-0.4158  
+       Max.   :-0.1008  
+8  :  timeBodyAccelerometerstdZ
+       Min.   :-0.9744  
+       1st Qu.:-0.6845  
+       Median :-0.6464  
+       Mean   :-0.6105  
+       3rd Qu.:-0.5753  
+       Max.   : 0.2403  
+9  :  timeGravityAccelerometermeanX
+       Min.   :0.3966  
+       1st Qu.:0.6466  
+       Median :0.6831  
+       Mean   :0.6821  
+       3rd Qu.:0.7072  
+       Max.   :0.9375  
+10  :  timeGravityAccelerometermeanY
+       Min.   :-0.234491  
+       1st Qu.:-0.053634  
+       Median : 0.014621  
+       Mean   :-0.001268  
+       3rd Qu.: 0.058534  
+       Max.   : 0.181036  
+11  :  timeGravityAccelerometermeanZ
+       Min.   :-0.16118  
+       1st Qu.: 0.04225  
+       Median : 0.08722  
+       Mean   : 0.09967  
+       3rd Qu.: 0.17503  
+       Max.   : 0.33369  
+12  :  timeGravityAccelerometerstdX
+       Min.   :-0.9831  
+       1st Qu.:-0.9725  
+       Median :-0.9658  
+       Mean   :-0.9660  
+       3rd Qu.:-0.9594  
+       Max.   :-0.9412  
+13  :  timeGravityAccelerometerstdY
+       Min.   :-0.9802  
+       1st Qu.:-0.9647  
+       Median :-0.9570  
+       Mean   :-0.9565  
+       3rd Qu.:-0.9516  
+       Max.   :-0.9011  
+14  :  timeGravityAccelerometerstdZ
+       Min.   :-0.9736  
+       1st Qu.:-0.9526  
+       Median :-0.9414  
+       Mean   :-0.9384  
+       3rd Qu.:-0.9322  
+       Max.   :-0.8387  
+15  :  timeBodyAccelerometerJerkmeanX
+       Min.   :0.04858  
+       1st Qu.:0.07751  
+       Median :0.07910  
+       Mean   :0.07785  
+       3rd Qu.:0.08141  
+       Max.   :0.08506  
+16  :  timeBodyAccelerometerJerkmeanY
+       Min.   :-0.049808  
+       1st Qu.: 0.003924  
+       Median : 0.007546  
+       Mean   : 0.007476  
+       3rd Qu.: 0.012068  
+       Max.   : 0.048416  
+17  :  timeBodyAccelerometerJerkmeanZ
+       Min.   :-0.1158331  
+       1st Qu.:-0.0083034  
+       Median :-0.0045061  
+       Mean   :-0.0075134  
+       3rd Qu.:-0.0008738  
+       Max.   : 0.0177408  
+18  :  timeBodyAccelerometerJerkstdX
+       Min.   :-0.9871  
+       1st Qu.:-0.6912  
+       Median :-0.6319  
+       Mean   :-0.6422  
+       3rd Qu.:-0.5771  
+       Max.   :-0.3510  
+19  :  timeBodyAccelerometerJerkstdY
+       Min.   :-0.9767  
+       1st Qu.:-0.6769  
+       Median :-0.6066  
+       Mean   :-0.6154  
+       3rd Qu.:-0.5337  
+       Max.   :-0.3736  
+20  :  timeBodyAccelerometerJerkstdZ
+       Min.   :-0.9871  
+       1st Qu.:-0.8071  
+       Median :-0.7818  
+       Mean   :-0.7713  
+       3rd Qu.:-0.7317  
+       Max.   :-0.6030  
+21  :  timeBodyGyromeanX
+       Min.   :-0.220402  
+       1st Qu.:-0.053227  
+       Median :-0.028128  
+       Mean   :-0.038683  
+       3rd Qu.:-0.019689  
+       Max.   : 0.003591  
+22  :  timeBodyGyromeanY
+       Min.   :-0.13150  
+       1st Qu.:-0.08321  
+       Median :-0.07588  
+       Mean   :-0.07557  
+       3rd Qu.:-0.06829  
+       Max.   :-0.03797  
+23  :  timeBodyGyromeanZ
+       Min.   :0.06067  
+       1st Qu.:0.08485  
+       Median :0.08735  
+       Mean   :0.08967  
+       3rd Qu.:0.09754  
+       Max.   :0.13790  
+24  :  timeBodyGyrostdX
+       Min.   :-0.9765  
+       1st Qu.:-0.7625  
+       Median :-0.7100  
+       Mean   :-0.7248  
+       3rd Qu.:-0.6839  
+       Max.   :-0.4529  
+25  :  timeBodyGyrostdY
+       Min.   :-0.9873  
+       1st Qu.:-0.7712  
+       Median :-0.7088  
+       Mean   :-0.6762  
+       3rd Qu.:-0.6088  
+       Max.   : 0.1328  
+26  :  timeBodyGyrostdZ
+       Min.   :-0.9715  
+       1st Qu.:-0.7213  
+       Median :-0.6678  
+       Mean   :-0.6579  
+       3rd Qu.:-0.5990  
+       Max.   :-0.2593  
+27  :  timeBodyGyroJerkmeanX
+       Min.   :-0.10926  
+       1st Qu.:-0.10247  
+       Median :-0.09670  
+       Mean   :-0.09334  
+       3rd Qu.:-0.08812  
+       Max.   :-0.01613  
+28  :  timeBodyGyroJerkmeanY
+       Min.   :-0.04948  
+       1st Qu.:-0.04411  
+       Median :-0.04153  
+       Mean   :-0.04130  
+       3rd Qu.:-0.04007  
+       Max.   :-0.01140  
+29  :  timeBodyGyroJerkmeanZ
+       Min.   :-0.12266  
+       1st Qu.:-0.05824  
+       Median :-0.05555  
+       Mean   :-0.05622  
+       3rd Qu.:-0.05245  
+       Max.   :-0.03337  
+30  :  timeBodyGyroJerkstdX
+       Min.   :-0.9829  
+       1st Qu.:-0.7860  
+       Median :-0.7287  
+       Mean   :-0.7372  
+       3rd Qu.:-0.6822  
+       Max.   :-0.5181  
+31  :  timeBodyGyroJerkstdY
+       Min.   :-0.9895  
+       1st Qu.:-0.8569  
+       Median :-0.8000  
+       Mean   :-0.7924  
+       3rd Qu.:-0.7085  
+       Max.   :-0.5460  
+32  :  timeBodyGyroJerkstdZ
+       Min.   :-0.9852  
+       1st Qu.:-0.7962  
+       Median :-0.7484  
+       Mean   :-0.7455  
+       3rd Qu.:-0.6827  
+       Max.   :-0.5269  
+33  :  timeBodyAccelerometerMagnitudemean
+       Min.   :-0.97302  
+       1st Qu.:-0.61308  
+       Median :-0.53987  
+       Mean   :-0.55248  
+       3rd Qu.:-0.50030  
+       Max.   :-0.01849  
+34  :  timeBodyAccelerometerMagnitudestd
+       Min.   :-0.9643  
+       1st Qu.:-0.6482  
+       Median :-0.5912  
+       Mean   :-0.5953  
+       3rd Qu.:-0.5335  
+       Max.   :-0.1912  
+35  :  timeGravityAccelerometerMagnitudemean
+       Min.   :-0.97302  
+       1st Qu.:-0.61308  
+       Median :-0.53987  
+       Mean   :-0.55248  
+       3rd Qu.:-0.50030  
+       Max.   :-0.01849  
+36  :  timeGravityAccelerometerMagnitudestd
+       Min.   :-0.9643  
+       1st Qu.:-0.6482  
+       Median :-0.5912  
+       Mean   :-0.5953  
+       3rd Qu.:-0.5335  
+       Max.   :-0.1912  
+37  :  timeBodyAccelerometerJerkMagnitudemean
+       Min.   :-0.9859  
+       1st Qu.:-0.7026  
+       Median :-0.6502  
+       Mean   :-0.6560  
+       3rd Qu.:-0.5885  
+       Max.   :-0.4439  
+38  :  timeBodyAccelerometerJerkMagnitudestd
+       Min.   :-0.9830  
+       1st Qu.:-0.6885  
+       Median :-0.6102  
+       Mean   :-0.6317  
+       3rd Qu.:-0.5616  
+       Max.   :-0.3700  
+39  :  timeBodyGyroMagnitudemean
+       Min.   :-0.956718  
+       1st Qu.:-0.676385  
+       Median :-0.616845  
+       Mean   :-0.605301  
+       3rd Qu.:-0.546851  
+       Max.   :-0.009582  
+40  :  timeBodyGyroMagnitudestd
+       Min.   :-0.96428  
+       1st Qu.:-0.73120  
+       Median :-0.67534  
+       Mean   :-0.66058  
+       3rd Qu.:-0.59005  
+       Max.   :-0.05195  
+41  :  timeBodyGyroJerkMagnitudemean
+       Min.   :-0.9890  
+       1st Qu.:-0.8198  
+       Median :-0.7870  
+       Mean   :-0.7685  
+       3rd Qu.:-0.7054  
+       Max.   :-0.5989  
+42  :  timeBodyGyroJerkMagnitudestd
+       Min.   :-0.9861  
+       1st Qu.:-0.8387  
+       Median :-0.8037  
+       Mean   :-0.7845  
+       3rd Qu.:-0.7140  
+       Max.   :-0.5739  
+43  :  frequencyBodyAccelerometermeanX
+       Min.   :-0.9843  
+       1st Qu.:-0.6726  
+       Median :-0.6173  
+       Mean   :-0.6275  
+       3rd Qu.:-0.5765  
+       Max.   :-0.3371  
+44  :  frequencyBodyAccelerometermeanY
+       Min.   :-0.9624  
+       1st Qu.:-0.6060  
+       Median :-0.5289  
+       Mean   :-0.5463  
+       3rd Qu.:-0.4477  
+       Max.   :-0.2578  
+45  :  frequencyBodyAccelerometermeanZ
+       Min.   :-0.9747  
+       1st Qu.:-0.7271  
+       Median :-0.6837  
+       Mean   :-0.6723  
+       3rd Qu.:-0.6299  
+       Max.   :-0.3046  
+46  :  frequencyBodyAccelerometerstdX
+       Min.   :-0.9853  
+       1st Qu.:-0.6558  
+       Median :-0.6031  
+       Mean   :-0.6073  
+       3rd Qu.:-0.5476  
+       Max.   :-0.2007  
+47  :  frequencyBodyAccelerometerstdY
+       Min.   :-0.95457  
+       1st Qu.:-0.59489  
+       Median :-0.53214  
+       Mean   :-0.53562  
+       3rd Qu.:-0.44237  
+       Max.   :-0.08319  
+48  :  frequencyBodyAccelerometerstdZ
+       Min.   :-0.9753  
+       1st Qu.:-0.6946  
+       Median :-0.6500  
+       Mean   :-0.6116  
+       3rd Qu.:-0.5999  
+       Max.   : 0.3793  
+49  :  frequencyBodyAccelerometermeanFreqX
+       Min.   :-0.5056  
+       1st Qu.:-0.2385  
+       Median :-0.2179  
+       Mean   :-0.2124  
+       3rd Qu.:-0.1808  
+       Max.   : 0.2214  
+50  :  frequencyBodyAccelerometermeanFreqY
+       Min.   :-0.19747  
+       1st Qu.:-0.02263  
+       Median : 0.02979  
+       Mean   : 0.01474  
+       3rd Qu.: 0.06694  
+       Max.   : 0.13066  
+51  :  frequencyBodyAccelerometermeanFreqZ
+       Min.   :-0.657588  
+       1st Qu.: 0.006911  
+       Median : 0.049707  
+       Mean   : 0.034927  
+       3rd Qu.: 0.089306  
+       Max.   : 0.218123  
+52  :  frequencyBodyAccelerometerJerkmeanX
+       Min.   :-0.9870  
+       1st Qu.:-0.7155  
+       Median :-0.6520  
+       Mean   :-0.6597  
+       3rd Qu.:-0.6045  
+       Max.   :-0.4076  
+53  :  frequencyBodyAccelerometerJerkmeanY
+       Min.   :-0.9760  
+       1st Qu.:-0.6967  
+       Median :-0.6282  
+       Mean   :-0.6354  
+       3rd Qu.:-0.5564  
+       Max.   :-0.4077  
+54  :  frequencyBodyAccelerometerJerkmeanZ
+       Min.   :-0.9844  
+       1st Qu.:-0.7913  
+       Median :-0.7562  
+       Mean   :-0.7531  
+       3rd Qu.:-0.7133  
+       Max.   :-0.5789  
+55  :  frequencyBodyAccelerometerJerkstdX
+       Min.   :-0.9883  
+       1st Qu.:-0.7072  
+       Median :-0.6496  
+       Mean   :-0.6566  
+       3rd Qu.:-0.5968  
+       Max.   :-0.3503  
+56  :  frequencyBodyAccelerometerJerkstdY
+       Min.   :-0.9795  
+       1st Qu.:-0.6774  
+       Median :-0.6072  
+       Mean   :-0.6202  
+       3rd Qu.:-0.5411  
+       Max.   :-0.3793  
+57  :  frequencyBodyAccelerometerJerkstdZ
+       Min.   :-0.9885  
+       1st Qu.:-0.8223  
+       Median :-0.7949  
+       Mean   :-0.7884  
+       3rd Qu.:-0.7448  
+       Max.   :-0.6275  
+58  :  frequencyBodyAccelerometerJerkmeanFreqX
+       Min.   :-0.31426  
+       1st Qu.:-0.09514  
+       Median :-0.04769  
+       Mean   :-0.04004  
+       3rd Qu.: 0.01113  
+       Max.   : 0.30320  
+59  :  frequencyBodyAccelerometerJerkmeanFreqY
+       Min.   :-0.3843  
+       1st Qu.:-0.2604  
+       Median :-0.2118  
+       Mean   :-0.1949  
+       3rd Qu.:-0.1617  
+       Max.   : 0.3846  
+60  :  frequencyBodyAccelerometerJerkmeanFreqZ
+       Min.   :-0.5916  
+       1st Qu.:-0.1645  
+       Median :-0.1125  
+       Mean   :-0.1222  
+       3rd Qu.:-0.0782  
+       Max.   : 0.1248  
+61  :  frequencyBodyGyromeanX
+       Min.   :-0.9736  
+       1st Qu.:-0.7227  
+       Median :-0.6644  
+       Mean   :-0.6770  
+       3rd Qu.:-0.6293  
+       Max.   :-0.4368  
+62  :  frequencyBodyGyromeanY
+       Min.   :-0.9839  
+       1st Qu.:-0.7885  
+       Median :-0.7471  
+       Mean   :-0.7099  
+       3rd Qu.:-0.6314  
+       Max.   :-0.3231  
+63  :  frequencyBodyGyromeanZ
+       Min.   :-0.9730  
+       1st Qu.:-0.7095  
+       Median :-0.6551  
+       Mean   :-0.6502  
+       3rd Qu.:-0.5845  
+       Max.   :-0.3590  
+64  :  frequencyBodyGyrostdX
+       Min.   :-0.9775  
+       1st Qu.:-0.7803  
+       Median :-0.7347  
+       Mean   :-0.7418  
+       3rd Qu.:-0.7006  
+       Max.   :-0.4619  
+65  :  frequencyBodyGyrostdY
+       Min.   :-0.9901  
+       1st Qu.:-0.7717  
+       Median :-0.7023  
+       Mean   :-0.6633  
+       3rd Qu.:-0.5810  
+       Max.   : 0.3296  
+66  :  frequencyBodyGyrostdZ
+       Min.   :-0.9737  
+       1st Qu.:-0.7514  
+       Median :-0.6989  
+       Mean   :-0.6937  
+       3rd Qu.:-0.6482  
+       Max.   :-0.2972  
+67  :  frequencyBodyGyromeanFreqX
+       Min.   :-0.24134  
+       1st Qu.:-0.14058  
+       Median :-0.11265  
+       Mean   :-0.09106  
+       3rd Qu.:-0.03271  
+       Max.   : 0.23790  
+68  :  frequencyBodyGyromeanFreqY
+       Min.   :-0.73558  
+       1st Qu.:-0.24318  
+       Median :-0.15802  
+       Mean   :-0.16750  
+       3rd Qu.:-0.08915  
+       Max.   : 0.54955  
+69  :  frequencyBodyGyromeanFreqZ
+       Min.   :-0.42396  
+       1st Qu.:-0.08939  
+       Median :-0.04303  
+       Mean   :-0.05935  
+       3rd Qu.:-0.01254  
+       Max.   : 0.10104  
+70  :  frequencyBodyAccelerometerMagnitudemean
+       Min.   :-0.9695  
+       1st Qu.:-0.6482  
+       Median :-0.5791  
+       Mean   :-0.5924  
+       3rd Qu.:-0.5185  
+       Max.   :-0.2952  
+71  :  frequencyBodyAccelerometerMagnitudestd
+       Min.   :-0.9662  
+       1st Qu.:-0.6997  
+       Median :-0.6570  
+       Mean   :-0.6617  
+       3rd Qu.:-0.6185  
+       Max.   :-0.2658  
+72  :  frequencyBodyAccelerometerMagnitudemeanFreq
+       Min.   :-0.22741  
+       1st Qu.: 0.03255  
+       Median : 0.08465  
+       Mean   : 0.07206  
+       3rd Qu.: 0.13039  
+       Max.   : 0.19220  
+73  :  frequencyBodyAccelerometerJerkMagnitudemean
+       Min.   :-0.9823  
+       1st Qu.:-0.6842  
+       Median :-0.6092  
+       Mean   :-0.6263  
+       3rd Qu.:-0.5480  
+       Max.   :-0.3933  
+74  :  frequencyBodyAccelerometerJerkMagnitudestd
+       Min.   :-0.9827  
+       1st Qu.:-0.6882  
+       Median :-0.6192  
+       Mean   :-0.6419  
+       3rd Qu.:-0.5887  
+       Max.   :-0.3305  
+75  :  frequencyBodyAccelerometerJerkMagnitudemeanFreq
+       Min.   :-0.1151  
+       1st Qu.: 0.1220  
+       Median : 0.1631  
+       Mean   : 0.1631  
+       3rd Qu.: 0.2113  
+       Max.   : 0.3258  
+76  :  frequencyBodyGyroMagnitudemean
+       Min.   :-0.9738  
+       1st Qu.:-0.7585  
+       Median :-0.7168  
+       Mean   :-0.7011  
+       3rd Qu.:-0.6359  
+       Max.   :-0.3659  
+77  :  frequencyBodyGyroMagnitudestd
+       Min.   :-0.96445  
+       1st Qu.:-0.76080  
+       Median :-0.69960  
+       Mean   :-0.69505  
+       3rd Qu.:-0.65415  
+       Max.   :-0.03303  
+78  :  frequencyBodyGyroMagnitudemeanFreq
+       Min.   :-0.37389  
+       1st Qu.:-0.11727  
+       Median :-0.03602  
+       Mean   :-0.04521  
+       3rd Qu.: 0.02019  
+       Max.   : 0.16605  
+79  :  frequencyBodyGyroJerkMagnitudemean
+       Min.   :-0.9871  
+       1st Qu.:-0.8382  
+       Median :-0.8069  
+       Mean   :-0.7863  
+       3rd Qu.:-0.7148  
+       Max.   :-0.5841  
+80  :  frequencyBodyGyroJerkMagnitudestd
+       Min.   :-0.9855  
+       1st Qu.:-0.8505  
+       Median :-0.8100  
+       Mean   :-0.7981  
+       3rd Qu.:-0.7344  
+       Max.   :-0.5937  
+81  :  frequencyBodyGyroJerkMagnitudemeanFreq
+       Min.   :-0.002009  
+       1st Qu.: 0.072505  
+       Median : 0.124612  
+       Mean   : 0.124117  
+       3rd Qu.: 0.165462  
+       Max.   : 0.232793  
